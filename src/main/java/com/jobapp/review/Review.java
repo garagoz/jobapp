@@ -15,7 +15,6 @@ import lombok.Setter;
 public class Review {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String reviewId;
     private String title;
     private String description;

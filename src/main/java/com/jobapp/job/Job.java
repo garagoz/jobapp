@@ -13,7 +13,6 @@ import lombok.*;
 public class Job {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String jobId;
     private String title;
     private String description;

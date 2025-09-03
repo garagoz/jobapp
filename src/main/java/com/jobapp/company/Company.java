@@ -18,7 +18,6 @@ import java.util.List;
 public class Company {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String companyId;
     private String name;
     private String description;
