@@ -3,10 +3,7 @@ package com.jobapp.company;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.jobapp.job.Job;
 import com.jobapp.review.Review;
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.ArrayList;
@@ -19,7 +16,9 @@ import java.util.List;
 @Builder
 @Entity
 public class Company {
+
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private String companyId;
     private String name;
     private String description;

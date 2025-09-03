@@ -12,7 +12,7 @@
 	<artifactId>jobapplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jobapplication</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Job App Spring Boot Rest Api</description>
 	<url/>
 	<licenses>
 		<license/>
